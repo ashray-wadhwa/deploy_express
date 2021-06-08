@@ -17,8 +17,8 @@ background-position: bottom;
 animation: 4s linear 0s infinite bp;
 background-color: #d3d3d3;
 display: flex;
-  align-items: center;
-  justify-content: center;
+  /* align-items: center;
+  justify-content: center; */
 }
 
 @keyframes bp {
