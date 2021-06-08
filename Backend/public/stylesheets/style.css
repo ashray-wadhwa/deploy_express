@@ -11,8 +11,21 @@ radial-gradient(circle at 100% 50%, transparent 20%, rgba(255,255,255,.3) 5%, rg
 radial-gradient(circle at 0% 50%, transparent 20%, rgba(255,255,255,.3) 5%, rgba(255,255,255,.3) 34%, transparent 35%, transparent) 0 -50px;
 background-color: slategray;
 background-size:75px 100px; */
-background: #d3d3d3;
-  opacity: 0.9;
+opacity: 0.9;
+background-image: url(//www.toptal.com/designers/subtlepatterns/patterns/symphony.png);
+background-position: bottom;
+animation: 4s linear 0s infinite bp;
+background-color: #d3d3d3;
+}
+
+@keyframes bp {
+  from {
+    background-position:  198px 0;
+  }
+  
+  to {
+    background-position:  0 198px;
+  }
 }
 
 h3{
