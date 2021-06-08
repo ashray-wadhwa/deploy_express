@@ -1,3 +1,4 @@
+/* Animated background sourced from https://codepen.io/riedemann/pen/PWyYjV */
 
 *{
   scroll-behavior: smooth;
@@ -11,6 +12,8 @@ radial-gradient(circle at 100% 50%, transparent 20%, rgba(255,255,255,.3) 5%, rg
 radial-gradient(circle at 0% 50%, transparent 20%, rgba(255,255,255,.3) 5%, rgba(255,255,255,.3) 34%, transparent 35%, transparent) 0 -50px;
 background-color: slategray;
 background-size:75px 100px; */
+
+/* Animated background sourced from https://codepen.io/riedemann/pen/PWyYjV */
 opacity: 0.9;
 background-image: url(//www.toptal.com/designers/subtlepatterns/patterns/symphony.png);
 background-position: bottom;
